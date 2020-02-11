@@ -3,7 +3,7 @@ from typing import Optional
 from eventsourcing.application.simple import SimpleApplication
 from eventsourcing.domain.model.collection import Collection
 
-from esexampletodolists.domainmodel import (
+from todolists.domainmodel import (
     TodoList,
     TodoListCollection,
     make_user_list_collection_id,
